@@ -11,31 +11,8 @@
 
 /* DEBUG */
 
-.header-top {
-    background-color: #add8e6;
-}
-
-.logo,
-.link,
-.login {
-    background-color: #daa520;
-    border: 2px dashed black;
-}
-
-.header-bottom {
-    background-color: #00008b;
-    border-bottom: 4px solid #add8e6;
-}
-
-.header-box {
-    height: 400px;
-    width: 950px;
-    background-color: #ee82ee;
-    border: 2px dashed black;
-}
-
 .main-box {
-    width: 1250px;
+    width: 50%;
     height: 520px;
 }
 
@@ -54,7 +31,7 @@ section:nth-child(even) {
 }
 
 .main-box2 {
-    width: 1250px;
+    width: 50%;
     height: 930px;
     background-color: #228b22;
     border: 2px dashed black;
@@ -75,12 +52,12 @@ footer {
 }
 
 .footer-container {
-    width: 1250px;
+    width: 50%;
     height: 600px;
 }
 
 .footer-box {
-    width: 1250px;
+    width: 50%;
     height: 85px;
     background-color: #7fffd4;
 }
@@ -97,6 +74,10 @@ footer {
 
 /* COMMON */
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .header-bottom,
 .main-container {
     padding: 50px 0 50px;
@@ -109,36 +90,74 @@ footer {
 
 /* HEADER */
 
-.header-top {
-    padding: 20px 0;
+header,
+footer {
+    color: white;
+}
+
+.menu {
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.menu {
-    width: 1250px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo,
-.login {
-    flex-grow: 1;
-    line-height: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .link {
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
     flex-grow: 2;
-    line-height: 50px;
+    padding: 10px;
+    text-align: center;
 }
 
-.login {
-    text-align: right;
+header a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
 }
+
+.button {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#nero {
+    color: white;
+    background-color: #23272a;
+}
+
+.header-box {
+    max-width: 50%;
+    text-align: center;
+}
+
+.header-top {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #255ee9;
+}
+
+p {
+    margin: 30px auto;
+}
+
+.header-bottom {
+    background-image: url(/img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-button {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* /HEADER */
 
