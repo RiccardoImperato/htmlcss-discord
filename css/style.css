@@ -105,7 +105,7 @@ header a {
 }
 
 .header-bottom {
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
 }
@@ -159,7 +159,7 @@ header a {
 }
 
 .star h2 {
-    background-image: url(/img/stars.svg);
+    background-image: url(../img/stars.svg);
     background-size: contain;
     padding: 25px;
 }
