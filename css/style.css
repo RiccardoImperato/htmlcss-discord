@@ -11,21 +11,6 @@
 
 /* DEBUG */
 
-.main-box {
-    width: 50%;
-    height: 520px;
-}
-
-section:nth-child(even) {
-    background-color: #d3d3d3;
-}
-
-.main-box2 {
-    width: 50%;
-    height: 930px;
-    background-color: #228b22;
-    border: 2px dashed black;
-}
 
 .left2 {
     background-color: #f08080;
@@ -73,11 +58,20 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h2,
+p {
+    margin: 30px auto;
+}
+
 .header-bottom,
 .main-container {
     padding: 50px 0 50px;
     display: flex;
     justify-content: center;
+}
+
+section:nth-child(even) {
+    background-color: #d3d3d3;
 }
 
 .button {
@@ -94,6 +88,11 @@ body {
     background-color: #23272a;
 }
 
+#viola {
+    color: white;
+    background-color: #7289da;
+}
+
 /*/ COMMON */
 
 
@@ -104,7 +103,6 @@ body {
 .header-top {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #255ee9;
 }
 
@@ -138,10 +136,6 @@ header a {
     text-align: center;
 }
 
-p {
-    margin: 30px auto;
-}
-
 .header-bottom {
     background-image: url(/img/jumbo.png);
     background-size: cover;
@@ -163,10 +157,17 @@ p {
 .main-box {
     display: flex;
     text-align: left;
+    width: 50%;
 }
 
-.main-box img {
+.main-box img,
+.main-box2 img {
     width: 100%;
+}
+
+.main-box2 {
+    text-align: center;
+    width: 50%;
 }
 
 .left {
@@ -177,6 +178,12 @@ p {
     width: 40%;
 }
 
+
+/*/ MAIN */
+
+
+/* FOOTER */
+
 .left2 {
     width: 40%;
 }
@@ -184,11 +191,6 @@ p {
 .right2 {
     width: 20%;
 }
-
-/*/ MAIN */
-
-
-/* FOOTER */
 
 .footer-top {
     display: flex;
