@@ -1,0 +1,201 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*/ RESET */
+
+
+/* DEBUG */
+
+.header-top {
+    background-color: #add8e6;
+}
+
+.logo,
+.link,
+.login {
+    background-color: #daa520;
+    border: 2px dashed black;
+}
+
+.header-bottom {
+    background-color: #00008b;
+    border-bottom: 4px solid #add8e6;
+}
+
+.header-box {
+    height: 400px;
+    width: 950px;
+    background-color: #ee82ee;
+    border: 2px dashed black;
+}
+
+.main-box {
+    width: 1250px;
+    height: 520px;
+}
+
+.left {
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.right {
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+}
+
+section:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+.main-box2 {
+    width: 1250px;
+    height: 930px;
+    background-color: #228b22;
+    border: 2px dashed black;
+}
+
+.left2 {
+    background-color: #f08080;
+    border: 2px dashed black;
+}
+
+.right2 {
+    background-color: #20b2aa;
+    border: 2px dashed white;
+}
+
+footer {
+    background-color: #23272a;
+}
+
+.footer-container {
+    width: 1250px;
+    height: 600px;
+}
+
+.footer-box {
+    width: 1250px;
+    height: 85px;
+    background-color: #7fffd4;
+}
+
+
+.logo-footer,
+.bottone {
+    background-color: #ffb6c1;
+    border: 2px dashed black;
+}
+
+/*/ DEBUG */
+
+
+/* COMMON */
+
+.header-bottom,
+.main-container {
+    padding: 50px 0 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/*/ COMMON */
+
+
+/* HEADER */
+
+.header-top {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo,
+.login {
+    flex-grow: 1;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.link {
+    text-align: center;
+    flex-grow: 2;
+    line-height: 50px;
+}
+
+.login {
+    text-align: right;
+}
+
+/* /HEADER */
+
+
+/* MAIN */
+
+.main-box {
+    display: flex;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+}
+
+.left2 {
+    width: 40%;
+}
+
+.right2 {
+    width: 20%;
+}
+
+/*/ MAIN */
+
+
+/* FOOTER */
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    padding: 10px 0 50px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer,
+.bottone {
+    padding: 5px;
+}
+
+/*/ FOOTER */
