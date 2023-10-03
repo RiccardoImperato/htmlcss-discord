@@ -9,24 +9,6 @@
 /*/ RESET */
 
 
-/* DEBUG */
-
-
-.footer-box {
-    width: 50%;
-    height: 85px;
-    background-color: #7fffd4;
-}
-
-.logo-footer,
-.bottone {
-    background-color: #ffb6c1;
-    border: 2px dashed black;
-}
-
-/*/ DEBUG */
-
-
 /* COMMON */
 
 body {
@@ -69,12 +51,12 @@ section:nth-child(even) {
     margin: 10px;
 }
 
-#nero {
+.black {
     color: white;
     background-color: #23272a;
 }
 
-#viola {
+.violet {
     color: white;
     background-color: #7289da;
 }
@@ -172,7 +154,6 @@ footer {
     background-color: #23272a;
 }
 
-
 .lingua img {
     width: 5%;
 }
@@ -189,7 +170,6 @@ footer {
 .footer-top {
     display: flex;
     justify-content: center;
-    border-bottom: 2px solid white;
     padding: 10px 0 50px;
 }
 
@@ -202,7 +182,6 @@ footer {
 .footer-bottom {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
 }
 
 .footer-box {
@@ -211,9 +190,9 @@ footer {
     align-items: center;
 }
 
-.logo-footer,
-.bottone {
-    padding: 5px;
+.footer-box {
+    width: 50%;
+    border-top: 1px solid #7289da;
 }
 
 /*/ FOOTER */
