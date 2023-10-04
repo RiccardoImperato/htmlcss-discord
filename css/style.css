@@ -9,31 +9,49 @@
 /*/ RESET */
 
 
-/* COMMON */
+/* TYPOGRAPHY */
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+h1,
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.main-box2 h2 {
+    margin-top: 50px;
+}
+
+footer h2,
+h4 {
+    color: #7289da;
+    margin: 30px auto;
+}
+
+p {
+    margin: 30px auto;
+    line-height: 1.7;
+}
+
+/*/ TYPOGRAPHY */
+
+
+
+/* COMMON */
 
 header,
 footer {
     color: white;
 }
 
-footer h2,
-h4 {
-    color: #7289da;
-}
-
-h2,
-h4,
-p {
-    margin: 30px auto;
-}
-
-.header-bottom,
-.main-container {
-    padding: 50px 0 50px;
+.header-bottom {
+    padding: 80px;
     display: flex;
     justify-content: center;
 }
@@ -86,7 +104,6 @@ section:nth-child(even) {
     flex-wrap: wrap;
     justify-content: center;
     flex-grow: 2;
-    padding: 10px;
 }
 
 header a {
@@ -123,12 +140,19 @@ header a {
 /* MAIN */
 
 .main-container {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container-big {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .main-box {
+    margin: 0 auto;
     display: flex;
     text-align: left;
     max-width: 50%;
@@ -140,8 +164,9 @@ header a {
 }
 
 .main-box2 {
-    text-align: center;
+    margin: 0 auto;
     max-width: 50%;
+    text-align: center;
 }
 
 .left {
@@ -149,6 +174,7 @@ header a {
 }
 
 .right {
+    padding: 50px;
     width: 40%;
 }
 
@@ -158,10 +184,11 @@ header a {
     align-items: center;
 }
 
-.star h2 {
+.star h3 {
     background-image: url(../img/stars.svg);
-    background-size: contain;
-    padding: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
 }
 
 /*/ MAIN */
@@ -170,7 +197,12 @@ header a {
 /* FOOTER */
 
 footer {
+    padding-top: 80px;
     background-color: #23272a;
+}
+
+.left2 {
+    width: 40%;
 }
 
 .lingua img {
@@ -189,13 +221,13 @@ footer {
 .footer-top {
     display: flex;
     justify-content: center;
-    padding: 10px 0 50px;
+    padding-bottom: 50px;
 }
 
 .footer-container {
     width: 50%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .footer-bottom {
